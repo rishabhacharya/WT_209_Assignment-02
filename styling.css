@@ -1,0 +1,273 @@
+<style>
+
+h1 {
+margin-left: 70px;
+}
+form li {
+list-style: none;
+margin-bottom: 5px;
+
+}
+
+form ul li label{
+float: left;
+clear: left;
+width: 100px;
+text-align: right;
+margin-right: 10px;
+font-family:calibri;
+font-size:16px;
+
+}
+
+form ul li input, select, span {
+float: left;
+margin-bottom: 10px;
+}
+
+form textarea {
+float: left;
+width: 350px;
+height: 150px;
+}
+
+[type="submit"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}
+
+p {
+margin-left: 70px;
+font-weight: bold;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3CA9F0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5DADE2;
+  color: white;
+  text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+.fling-minislide {width:1500px; height:500px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+.img1{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
+
+  p.ex1 {
+  margin: 35px 400px 50px 400px;}
+
+  #example1 {
+  background-image: url(grey.jpg);
+  background-position: right bottom, left top;
+  padding-left: 20px; padding-right: 20px; padding-bottom: 100px; padding-top: 10px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3CA9F0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#037EA7 ;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left:auto; margin-right:auto;
+
+}
+th, td {
+  padding: 5px;
+}
+
+.img1{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
+
+  p.ex1 {
+  margin: 35px 400px 50px 400px;}
+
+  #example1 {
+  background-image: url(grey.jpg);
+  background-position: right bottom, left top;
+  padding-left: 20px; padding-right: 20px; padding-bottom: 100px; padding-top: 10px
+}
+ .footer {
+  position: fixed;
+  width: 101%;
+  background-color:#2C95DA;
+  }
+
+.samsung1 {
+  background-color: lightgrey;
+  width: 1200px;
+  height: 250px;}
+
+  .galaxyA21{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
+
+.samsung2 {
+  background-color: lightgrey;
+  width: 1200px;
+  height: 250px;}
+
+  .galaxyM11{
+      position: absolute;
+      z-index: -1;
+    }
+
+    .samsung3 {
+  background-color: lightgrey;
+  width: 1200px;
+  height: 250px;}
+
+  .galaxynote10lite{
+      position: absolute;
+      z-index: -1;
+    }
+
+ #example1 {
+  background-image: url(grey.jpg);
+  background-position: right bottom, left top;
+  padding-left: 20px; padding-right: 20px; padding-bottom: 100px; padding-top: 10px
+}
+
+.redmi1 {
+  background-color: lightgrey;
+  width: 1200px;
+  height: 250px;}
+
+  .note9pro{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
+
+.redmi2 {
+  background-color: lightgrey;
+  width: 1200px;
+  height: 250px;}
+
+  .k30{
+      position: absolute;
+      z-index: -1;
+    }
+
+    .redmi3 {
+  background-color: lightgrey;
+  width: 1200px;
+  height: 250px;}
+
+  .redmi10x{
+      position: absolute;
+      z-index: -1;
+    }
+
+ #example1 {
+  background-image: url(grey.jpg);
+  background-position: right bottom, left top;
+  padding-left: 20px; padding-right: 20px; padding-bottom: 10px; padding-top: 10px
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #2C95DA;
+  color: white;
+}
+.button{
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 40px 705px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #07A5D9 ;
+  color: white;
+  border: 1px;
+}
+
+.button1:hover {
+  background-color: #048BB8;
+  color: white;
+}
+
+
+
+
+
+
+</style>
